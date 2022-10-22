@@ -1,0 +1,39 @@
+.main{
+    height: 1000px;
+    width: 1500px;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+
+.header{
+    height: 200px;
+    width: 1500px;
+    background-color: mediumseagreen;
+    text-align: center;
+    line-height: 200px;
+}
+.sidebar{
+    height: 695px;
+    width: 500px;
+    background-color: mediumseagreen;
+    text-align: center;
+    line-height: 600px;
+}
+.Content{
+    height: 695px;
+    width: 950px;
+    background-color:mediumseagreen;
+    position: relative;
+    float: right;
+    margin-top: -715px;
+    text-align: center;
+    line-height: 600px;
+}
+.footer{
+    height: 150px;
+    width: 1500px;
+    background-color: mediumseagreen;
+    text-align: center;
+    line-height: 120px;
+}

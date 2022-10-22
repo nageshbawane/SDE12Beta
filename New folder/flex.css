@@ -1,0 +1,100 @@
+.flex-Container {
+    border: 7px solid red;
+    display: flex;
+    padding:16px;
+    flex-direction:row;
+    flex
+    
+    flex-basis: 50px;
+
+    
+}
+
+.Flex-Item{background-color: yellow;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    
+
+
+}
+.item1 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: xx-large;
+    flex-basis;
+    line-height: 200px}
+
+.item2{
+    height: 200px;
+    width: 200px;
+    background-color: silver;
+    flex-grow: 3;
+    font-size: xx-large;
+    line-height: 200px;
+
+}
+
+.item3 {
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    font-size: xx-large;
+    line-height: 200px;
+    
+
+}
+
+.item4 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    font-size: xx-large;
+    line-height: 200px;
+
+}
+
+.item5{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    font-size: xx-large;
+    line-height: 200px;
+}
+
+.item6{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    font-size: xx-large;
+    line-height: 200px;
+}
+
+
+.item7{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: xx-large;
+    line-height: 200px;
+
+}
+
+.item8{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 128, 105, 0.849);
+    font-size: xx-large;
+    line-height: 200px;
+
+}
+
+.item9{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    font-size: xx-large;
+    line-height: 200px;
+
+}

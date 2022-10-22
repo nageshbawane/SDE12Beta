@@ -1,0 +1,139 @@
+* {
+    margin: auto;
+    padding: 0rem;
+}
+
+.main {
+    height: 800px;
+    width: 1500px;
+    background-image: url(/SDE12/image.html/image/India\ Gate.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background: cover;
+
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+color:white;
+text-shadow: 3px 3px red;
+position: relative;
+left: 202px;
+top: 90px;;
+font-weight: 300;
+
+}
+
+.container {
+    height: 750px;
+    width: 1500px;
+}
+
+.ul li {
+    display: inline;
+    font: size 1re;
+    text-shadow: none;
+    justify-content: space-between;
+    padding: 2rem;
+    margin:1rem;
+    position: relative;
+    right: 120px;
+    top: -240px;
+}
+.flex-item{
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    height: 200px;
+    width: 500px;
+    display: flex
+}
+.container {
+    height: 750px;
+    width: 1500px;
+}
+
+.one {
+    color:white;
+    text-shadow: 4px 4px palevioletred;
+    font-size: 40px;
+    offset-rotate: 50px;
+    position: relative;
+    top: 140px;
+    left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.two {
+    color: whitesmoke;
+    font-size: 40px;
+    text-shadow: 3px 3px red;
+    font-family: sans-serif;
+    position: relative;
+    top:290px;
+    left: 50px;
+    font-weight: 600;
+}
+.two::after {
+    content: "";
+    animation: changetext 5s infinite linear;
+    color:cyan;
+    font-size: 40px;
+    font-style: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 10px;
+    font-weight: 700;
+    width: 100px;
+    margin: 10px;
+}
+@keyframes changetext {
+    20% {
+        content: "Delhi";
+    }
+
+    40% {
+        content: "Gujrat";
+    }
+
+    60% {
+        content: "Goa";
+    }
+
+    80% {
+        content: "Manali";
+    }
+
+    100% {
+        content: "Mumbai";
+    }
+}
+
+.three {
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px purple;
+    position: relative;
+    top: 300px;
+    left: -390px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    float: left;
+    font-size: 35px;
+    border: none;
+    background-color: cyan;
+    margin: 30px;
+    position: relative;
+    top: 350px;
+    left: 40px;
+
+}
+.btn:hover {
+    background-color: blueviolet;
+    transition: 0.2s;
+    box-shadow: 2px 2px red;
+}

@@ -1,0 +1,102 @@
+.main-container{
+    background-color: aqua;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 150px;
+}
+.header{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+}
+.media{
+    background-color: pink;
+    flex-basis: 50%;
+}
+.navbar{
+    background-color: chartreuse;
+    flex-basis: 50%; 
+}
+.main{
+    background-color: blanchedalmond;
+    flex-basis: 80%;
+    display: flex;
+}
+.left{
+    background-color: coral;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left1{background-color: burlywood;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.one{background-color:darkseagreen;
+    flex-grow: 0.3;
+
+}
+.two{
+    background-color: fuchsia;
+    flex-grow: 0.3;
+}
+.three{background-color: khaki;
+    flex-grow: 0.3;
+    
+}
+.four{background-color: mediumaquamarine;
+    flex-grow: 0.3;
+}
+
+.left2{background-color: crimson;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.left2-1{background-color: dodgerblue;
+    flex-basis: 50%;
+}
+.left2-2{
+background-color: gold;
+flex-basis: 50%;
+}
+.right{background-color: cadetblue;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.right1{background-color:goldenrod;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.right1-1{
+    background-color: green;
+    flex-basis: 50%;
+}
+.right1-2{
+    background-color:yellowgreen;
+    flex-basis: 50%;
+}
+.right2{background-color: maroon;
+    flex-basis: 50%;
+    display: flex;
+    
+}
+.right2-1{
+    background-color:brown;
+    flex-basis: 50%;
+}
+.right2-2{
+    background-color:darkkhaki;
+    flex-basis: 50%;
+}
+.footer{
+    background-color: blue;
+    flex-basis: 10%;
+}

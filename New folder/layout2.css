@@ -1,0 +1,36 @@
+.main{
+    height: 1000px;
+    width: 1200px;
+    background-color: pink;
+    margin: auto;
+}
+.one{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    
+}
+.two{
+    height: 150px;
+    width: 900px;
+    background-color:green;
+    float: right;
+    margin-top: -300px;
+}
+.three{
+    height: 150px;
+    width: 900px;
+    background-color:yellow;
+    float: right;
+    margin-top: -150px;
+}
+.container{
+    height: 600px;
+    width: 1200px;
+    background-color: blue;
+}
+.footer{
+    height: 100px;
+    width: 1200px;
+    background-color: red;
+}

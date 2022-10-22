@@ -1,0 +1,48 @@
+.main {
+    height: 1000px;
+    width: 1200px;
+    background-color: pink;
+    margin: auto;
+}
+
+
+
+
+
+.three {
+    height: 150px;
+    width: 1200px;
+    background-color: greenyellow;
+    float: right;
+    margin-top: px;
+}
+
+.container {
+    height: 300px;
+    width: 1200px;
+    background-color: maroon;
+}
+.sidebar{
+    height: 540px;
+    width: 500px;
+    background-color: mediumseagreen;
+    text-align: center;
+    line-height: 400px;
+}
+.Content{
+    height: 500px;
+    width: 600px;
+    background-color:mediumseagreen;
+    position: relative;
+    float: right;
+    margin-top: -470px;
+    text-align: center;
+    line-height: 400px;
+}
+
+.footer {
+    height: 100px;
+    width: 1200px;
+    background-color: red;
+    margin-top: 110px;
+}

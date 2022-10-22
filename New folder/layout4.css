@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px red ;
+    line-height: 100px;
+    background-color: blueviolet;
+    flex-basis: 20%;
+}
+    
+.container{background-color: blue;
+    flex-basis:80% ;
+    display: flex;text-align: center;
+    
+   
+}
+.one{background-color:deepskyblue;
+    flex-grow: 0.4;
+    font-size: 30px;
+    line-height: 400px;
+
+}
+.circle{margin: auto;
+    border-radius:50px;
+    position: relative;
+    bottom: -150px;
+    height: 70px;
+    width: 70px;
+    background-color:red;
+    overflow: hidden;
+    -webkit-animation: circle 5s linear infinite;
+
+}
+
+.circle2{margin: auto;
+    border-radius:50px;
+    position: relative;
+    bottom: -150px;
+    height: 60px;
+    width: 60px;
+    background-color:purple;
+    overflow: hidden;
+    -webkit-animation: circle 5s linear infinite;
+
+}
+@-webkit-keyframes circle{      
+    0%{transform: rotate(0deg)translate(-150px)rotate(-360deg);
+
+    }
+    100%{transform: rotate(360deg)translate(-150px)rotate(-360deg);
+
+    }
+}
+
+
+.two{background-color: coral;
+    flex-grow: 0.3;
+}
+.img{
+    height: 100%;
+    width: 100%
+   
+}
+.three{
+background-color: chartreuse;
+flex-grow: 0.3;
+font-size: 30px;
+    line-height: 400px;
+}
+.section{color:yellowgreen;
+    text-shadow: 3px 3px red;
+    
+    background-color:white;
+    display: flex;
+    flex-basis: 20%;
+}
+.BOX1{
+    background-color: orange;
+    flex-grow: 0.4
+}
+.BOX2{  
+    background-color:white;
+    flex-grow: 0.4;
+    
+}
+.img2{
+    height: 273px;
+    width: 273px;
+    position: relative;
+    right: -110px;
+    top: 8px;
+}
+.BOX3{
+    background-color: green;
+    flex-grow: 0.4;
+}
+.NAGESH{font-size: 70px;
+    text-align: center;
+    color: red;
+    text-shadow: 4PX 3PX 2PX violet;
+}
+
+.BOX4{
+    background-color:mediumvioletred;
+    flex-grow: 0.6;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 60PX;
+    text-shadow: 3PX 3PX white;
+    line-height: 200PX;
+    
+}
+.BOX5{
+    background-color:springgreen;
+    flex-grow: 0.6;
+    text-align: center;
+    font-size: 30PX;
+    text-shadow: 3PX 3PX red
+    line-height: 10PX;
+  
+}
+.footer{background-color: red;
+    flex-basis: 20%;
+    line-height: 90px;
+    font-size: 50px;
+    text-shadow: 3px 3px blue ;
+}
+.MArquee{transition: 5s;
+
+}
